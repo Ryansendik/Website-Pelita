@@ -1,0 +1,1200 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    background-color: #2E8B57; /* Hijau */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header .logo {
+    max-width: 120px;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #3CB371; /* Hijau lebih terang */
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Vision & Mission Section */
+.vision-mission {
+    padding: 40px 20px;
+    background-color: #e2f9e3; /* Hijau muda */
+    text-align: center;
+}
+
+.vision-mission h2 {
+    font-size: 28px;
+    color: #2E8B57; /* Hijau */
+    margin-bottom: 20px;
+}
+
+.vision-mission h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #006400; /* Hijau lebih gelap */
+}
+
+.vision-mission p, .vision-mission ul {
+    font-size: 18px;
+    color: #333;
+}
+
+.vision-mission ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vision-mission li {
+    margin: 10px 0;
+}
+
+/* News Section */
+.news-preview {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.news-preview h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #006400; /* Hijau lebih gelap */
+    margin-bottom: 20px;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.news-item h3 {
+    font-size: 22px;
+    color: #006400; /* Hijau lebih gelap */
+    margin-top: 10px;
+}
+
+.news-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #2E8B57; /* Hijau */
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2E8B57; /* Hijau */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-container h2 {
+    font-size: 28px;
+    color: #2E8B57; /* Hijau */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Call-to-Action Section */
+.cta {
+    padding: 40px 20px;
+    background-color: #3CB371; /* Hijau lebih terang */
+    color: white;
+    text-align: center;
+}
+
+.cta-content h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cta-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #006400; /* Hijau gelap */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #3CB371; /* Hijau lebih terang */
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form .form-group label {
+    font-size: 16px;
+    color: #333;
+}
+
+#contact form .form-group input, #contact form .form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form .btn-submit {
+    background-color: #2E8B57; /* Hijau */
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact form .btn-submit:hover {
+    background-color: #3CB371; /* Hijau lebih terang */
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.gallery-header h2 {
+    font-size: 28px;
+    color: #2E8B57; /* Hijau */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-header p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-container img {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+#services .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#services h2 {
+    font-size: 28px;
+    color: #2E8B57; /* Hijau */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#services p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.service-card {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.service-card .service-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    color: #2E8B57; /* Hijau */
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2E8B57; /* Hijau */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-content {
+    margin-bottom: 20px;
+}
+
+footer .social-media-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media-links img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer .social-media-links a:hover {
+    text-decoration: underline;
+}
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    background-color: #2E8B57; /* Green */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header .logo {
+    max-width: 120px;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #3CB371; /* Medium Sea Green */
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Team Section */
+#team {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#team h2 {
+    font-size: 28px;
+    color: #2E8B57; /* Green */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#team p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.team-member {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    color: #2E8B57; /* Green */
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2E8B57; /* Green */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-content {
+    margin-bottom: 20px;
+}
+
+footer .social-media-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media-links img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer .social-media-links a:hover {
+    text-decoration: underline;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    background-color: #2E8B57; /* Hijau */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header .logo {
+    max-width: 120px;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #3CB371; /* Hijau lebih terang */
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Vision & Mission Section */
+.vision-mission {
+    padding: 40px 20px;
+    background-color: #e2f9e3; /* Hijau muda */
+    text-align: center;
+}
+
+.vision-mission h2 {
+    font-size: 28px;
+    color: #2E8B57; /* Hijau */
+    margin-bottom: 20px;
+}
+
+.vision-mission h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #006400; /* Hijau lebih gelap */
+}
+
+.vision-mission p, .vision-mission ul {
+    font-size: 18px;
+    color: #333;
+}
+
+.vision-mission ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vision-mission li {
+    margin: 10px 0;
+}
+
+/* News Section */
+.news-preview {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.news-preview h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #006400; /* Hijau lebih gelap */
+    margin-bottom: 20px;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.news-item h3 {
+    font-size: 22px;
+    color: #006400; /* Hijau lebih gelap */
+    margin-top: 10px;
+}
+
+.news-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #2E8B57; /* Hijau */
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2E8B57; /* Hijau */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-container h2 {
+    font-size: 28px;
+    color: #2E8B57; /* Hijau */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .news-item {
+        width: 100%;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    .team-member img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p, nav ul li a {
+        font-size: 16px;
+    }
+
+    .vision-mission h2, .news-preview h2, #services h2, #contact h2 {
+        font-size: 24px;
+    }
+
+    .vision-mission p, .news-item p, #about p, #services p, #contact p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .news-item {
+        width: 30%;
+    }
+
+    .service-card {
+        width: 30%;
+    }
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    background-color: #2E8B57; /* Green */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header .logo {
+    max-width: 120px;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #3CB371; /* Medium Sea Green */
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Team Section */
+#team {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#team h2 {
+    font-size: 28px;
+    color: #2E8B57; /* Green */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#team p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(12, auto);
+    gap: 30px;
+}
+
+.team-member {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    color: #2E8B57; /* Green */
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .team-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Footer Section */
+footer {
+    background-color: #2E8B57; /* Green */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-content {
+    margin-bottom: 20px;
+}
+
+footer .social-media-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media-links img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer .social-media-links a:hover {
+    text-decoration: underline;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    background-color: #2E8B57; /* Hijau */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header .logo {
+    max-width: 150px;
+}
+
+.header h1 {
+    margin-top: 15px;
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #3CB371; /* Hijau lebih terang */
+    margin: 0;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.hero .cta-btn {
+    margin-top: 30px;
+    background-color: #006400;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.hero .cta-btn:hover {
+    background-color: #3CB371;
+}
+
+/* Vision & Mission Section */
+.vision-mission {
+    padding: 60px 20px;
+    background-color: #e2f9e3; /* Hijau muda */
+    text-align: center;
+}
+
+.vision-mission h2 {
+    font-size: 32px;
+    color: #2E8B57;
+    margin-bottom: 30px;
+}
+
+.vision-mission h3 {
+    font-size: 26px;
+    margin-top: 20px;
+    color: #006400;
+}
+
+.vision-mission p, .vision-mission ul {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.vision-mission ul {
+    list-style-type: none;
+}
+
+.vision-mission li {
+    margin: 15px 0;
+}
+
+/* News Section */
+.news-preview {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.news-preview h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #006400;
+    margin-bottom: 30px;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item {
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.news-item h3 {
+    font-size: 24px;
+    color: #006400;
+    margin-top: 15px;
+}
+
+.news-item p {
+    font-size: 18px;
+    color: #666;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-container h2 {
+    font-size: 32px;
+    color: #2E8B57;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-container p {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    margin: 0 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+
+    .news-item, .service-card {
+        width: 100%;
+    }
+
+    .team-member img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p, nav ul li a {
+        font-size: 16px;
+    }
+
+    .vision-mission h2, .news-preview h2, #services h2, #contact h2 {
+        font-size: 26px;
+    }
+
+    .vision-mission p, .news-item p, #about p, #services p, #contact p {
+        font-size: 18px;
+    }
+}
